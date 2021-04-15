@@ -32,6 +32,10 @@
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="FileChooser.GotoHome" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="GotoBookmark1" />
   <action id="MethodDown" />
   <action id="MethodUp" />
