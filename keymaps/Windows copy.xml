@@ -1,4 +1,8 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="ChooseNextSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration" />
   <action id="DuplicatesForm.SendToLeft" />
@@ -54,4 +58,7 @@
     <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
+  <action id="com.karateca.jstoolbox.torelated.GoToTestAction">
+    <keyboard-shortcut first-keystroke="ctrl meta t" />
+  </action>
 </keymap>
